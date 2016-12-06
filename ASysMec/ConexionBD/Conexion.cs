@@ -30,6 +30,7 @@ namespace ASysMec.ConexionBD
         {
             try
             {
+
                 return conexion;
             }
             catch (Exception) { return null; }
