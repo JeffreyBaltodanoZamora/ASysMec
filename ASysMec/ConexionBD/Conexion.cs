@@ -17,7 +17,7 @@ namespace ASysMec.ConexionBD
 
         public void CrearConexion()
         {
-            try
+            try//se hace la xoncion
             {
                 string cadena = "Data Source = -JEFFREY\\SQLEXPRESSJEFRY; Initial Catalog = BD_SysMec; Integrated Security = True";
                 conexion = new SqlConnection(cadena);
